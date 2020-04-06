@@ -1,0 +1,45 @@
+body {
+  background-color: powderblue;
+  background-repeat: no-repeat;
+  background-image: url("images/index-bg.jpeg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+h1 {
+  color: tomato;
+  text-align: center;
+  background-color: white;
+  padding: 10px;
+}
+p {
+  color: black;
+  background-color: white;
+  font-family: cursive;
+  font-size: 150%;
+  margin: 0px;
+  padding: 10px;
+}
+img {
+	border: 2px solid black;
+	padding: 10px;
+}
+button {
+	background-color: lightgray;
+	size: 2000%;
+}
+.container {
+  	text-align: center;
+}
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #111111;
+}
