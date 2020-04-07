@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<link rel="stylesheet" href="styles.css">
-    <title>ABC Restaurant</title>
+	<link rel="stylesheet" href="css/styles.css">
+    <title>Tasty Dots Restaurant</title>
     <style>
 	ul {
 	  list-style-type: none;
@@ -27,6 +27,54 @@
 	li a:hover {
 	  background-color: #111111;
 	}
+
+	div.gallery {
+	  border: 0px solid #ccc;
+	}
+
+	div.gallery:hover {
+	  border: 0px solid #777;
+	}
+
+	div.gallery img {
+	  width: 100%;
+	  height: auto;
+	}
+
+	div.desc {
+	  padding: 15px;
+	  text-align: center;
+	  background-color: #BDBDBD;
+	}
+
+	* {
+	  box-sizing: border-box;
+	}
+
+	.responsive {
+	  padding: 0 6px;
+	  float: left;
+	  width: 24.99999%;
+	}
+
+	@media only screen and (max-width: 700px) {
+	  .responsive {
+	    width: 49.99999%;
+	    margin: 6px 0;
+	  }
+	}
+
+	@media only screen and (max-width: 500px) {
+	  .responsive {
+	    width: 100%;
+	  }
+	}
+
+	.clearfix:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
 </style>
 </head>
 <body style="margin: 0px;">
@@ -37,14 +85,51 @@
   		<li><a href="about.html">About</a></li>
 	</ul>
     <div>
-    	<h1 style="margin-bottom: 0px">Welcome to ABC Restaurant!</h1>
+    	<h1 style="margin-bottom: 0px">Tasty Dots Restaurant!</h1>
 	</div>
-	<div class="container">
-		<p>Hello there! Welcome to the official website of ABC Restaurant!</p>
-		<p>ABC Restaurant is a brand new stylish restaurant in town, where you can find mouth watering dishes and a great place to hangout</p>
+	<div class="container" style="margin-bottom: 50px;">
+		<p>Hello there! Welcome to the official website of Tasty Dots!<br>
+		Tasty Dots is a brand new stylish restaurant in town, where you can find mouth watering dishes and a great place to hangout!</p>
 	</div>
-	<div class="container" style="margin-top: 250px">	
-		<a href="menu.html" title="See Menu" style="margin: 10px;">MENU</a>
+	<div class="responsive">
+	  <div class="gallery">
+	    <img src="images/north-indian.jpg" alt="North Indian" width="600" height="400">
+	    <div class="desc">North Indian</div>
+	  </div>
 	</div>
+
+
+	<div class="responsive">
+	  <div class="gallery">
+	      <img src="images/south-indian.jpg" alt="South Indian" width="600" height="400">
+	    <div class="desc">South Indian</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	      <img src="images/chinese.jpeg" alt="Chinese" width="600" height="400">
+	    <div class="desc">Chinese</div>
+	  </div>
+	</div>
+
+	<div class="responsive">
+	  <div class="gallery">
+	      <img src="images/italian.jpg" alt="Italian" width="600" height="400">
+	    <div class="desc">Italian</div>
+	  </div>
+	</div>
+
+	<div class="clearfix"></div>
+
+	<div class="container" style="margin-top: 30px; margin-bottom: 50px;">	
+		<a href="menu.html" title="See Menu" style="margin: 10px;">View Menu</a>
+	</div>
+	<div class="footer">
+		<h2 style="color: white;">Contact Us!</h2>
+		<pre>Phone: +91 XXXXX XXXXX<br>E-mail: queries@tastydots.com<br><br>Address: #21, Melange Street<br>		Koramangala, Bangalore<br>		560 059
+		</pre>
+	</div>
+	<p style="text-align: center; background-color: #f44336; padding: 15px;">© Copyright Tasty Dots Restaurant 2020</p>
 </body>
 </html>

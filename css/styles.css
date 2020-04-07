@@ -1,22 +1,22 @@
 body {
-  background-color: powderblue;
-  background-repeat: no-repeat;
-  background-image: url("images/index-bg.jpeg");
-  background-size: cover;
-  background-position: center;
-  position: relative;
+  background-color: #424242;
 }
 h1 {
   color: tomato;
   text-align: center;
-  background-color: white;
   padding: 10px;
 }
 p {
-  color: black;
-  background-color: white;
-  font-family: cursive;
-  font-size: 150%;
+  color: white;
+  font-family: serif;
+  font-size: 125%;
+  margin: 0px;
+  padding: 10px;
+}
+pre {
+  color: white;
+  font-family: serif;
+  font-size: 125%;
   margin: 0px;
   padding: 10px;
 }
@@ -29,7 +29,12 @@ button {
 	size: 2000%;
 }
 .container {
-  	text-align: center;
+  text-align: center;
+}
+.footer {
+  background-color: #111111;
+  padding: 50px;
+  height: 320px;
 }
 a:link, a:visited {
   background-color: #f44336;
