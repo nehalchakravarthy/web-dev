@@ -43,6 +43,7 @@ button {
 a:link, a:visited {
   background-color: #f44336;
   color: white;
+  font-size: 115%;
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
