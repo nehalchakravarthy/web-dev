@@ -24,21 +24,21 @@
 	    <address style="text-align: center;"><p>#21, Melange Street<br>Indiranagar, Bangalore<br>560 038</p></address>
 	</div>
 	<div class="right" style="margin-top: 50px;">
-		<form action="feedback.html">
+		<script type="text/javascript">var submitted=false;</script>
+     	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='feedback.html';}"></iframe>
+		<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdkRw3_LO0NW-Eqb9BlFylfMzGmGXAj-kWARo74IWa7_Gan8A/formResponse" method="post" target="hidden_iframe"
+    onsubmit="submitted=true;">
 		<p style="text-align: center; color: black;">Give your feedback here!</p>
 	    
-	    <input type="text" id="fname" name="firstname" placeholder="First name">
+	    <input type="text" id="fname" name="entry.2094884957" placeholder="First name">
 
-	    <input type="text" id="lname" name="lastname" placeholder="Last name">
+	    <input type="text" id="lname" name="entry.1418248178" placeholder="Last name">
 
-	    <input type="text" id="mail" name="email" placeholder="E-mail address">
+	    <input type="text" id="mail" name="entry.585160365" placeholder="E-mail address">
 
-	    <textarea id="feedback" name="feedback" placeholder="Write your feedback here" style="height: 100px; font-family: Arial;"></textarea>
+	    <textarea id="feedback" name="entry.667140218" placeholder="Write your feedback here" style="height: 100px; font-family: Arial;"></textarea>
 
 	    <input type="submit" value="Submit">
 	  </form>
 	</div>
-	<!--
-	<p style="text-align: center; background-color: #f44336; position: absolute; bottom: 0; padding: 15px; width: 100%;">© Copyright Tasty Dots Restaurant 2020</p>
--->
 </body>
